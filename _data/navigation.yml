@@ -7,10 +7,10 @@
 - title: Services
   url: /services/
   subnavigation:
-      - title: Maintenance
-        url: /services/maintenance/
-      - title: Excavation
-        url: /services/excavation/
+      - title: Inspections & Testing
+        url: /services/inspections-testing/
+      - title: Cleaning & Repairs
+        url: /services/cleaning-repairs/
 
 - title: Contact
   url: /contact/

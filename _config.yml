@@ -1,15 +1,15 @@
-title: Hurricane Hydrovac
+title: Hurricane SMS
 author:
-  name: Hurricane Hydrovac
+  name: Hurricane SMS
   email: info@thehurricanegroup.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Providining the Windsor Region with unparalleled service in the sanitation and excavation industries.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
-logo: hurricane-hydrovac-logo-color.svg
-logo_white: hurricane-hydrovac-wide-white.svg
-logo_dark: hurricane-hydrovac-wide-dark.svg
+logo: hurricane-sms-logo-color.svg
+logo_white: hurricane-sms-wide-white.svg
+logo_dark: hurricane-sms-wide-dark.svg
 
 facebook: https://www.facebook.com/windsorhydrovac/
 instagram: https://www.instagram.com/hurricane_hydrovac_servicesinc/
@@ -29,7 +29,7 @@ exclude:
   
 # Build settings
 theme: hurricane-theme
-skin: hyrdrovac
+skin: sms
 
 plugins:
  - jekyll-seo-tag

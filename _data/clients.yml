@@ -1,35 +1,15 @@
-- name: Aecon
-  logo: /assets/images/hydrovac/clients/aecon-logo.png
-
-- name: Fortis Group
-  logo: /assets/images/hydrovac/clients/fortis-group-logo.png
-
+# - name: Aecon
 - name: AMICO
   logo: /assets/images/hydrovac/clients/amico-logo.png
-
-- name: AtlasTube
-  logo: /assets/images/hydrovac/clients/atlas-tube-logo.png
-
-- name: Lakeshore
-  logo: /assets/images/hydrovac/clients/lakeshore-logo.png
 
 - name: City of Windsor
   logo: /assets/images/hydrovac/clients/city-of-windsor-logo.png
 
-- name: Countty of Essex
-  logo: /assets/images/hydrovac/clients/essex-county-logo.png
+- name: City of London
+  logo: /assets/images/hydrovac/clients/london-logo-2.png
 
-- name: Extreme Drilling
-  logo: /assets/images/hydrovac/clients/extreme-drilling-logo.png
-
-- name: Hybrid Utilities
-  logo: /assets/images/hydrovac/clients/hybrid-utilities-logo-1.png
-
-- name: Pickard Construction
-  logo: /assets/images/hydrovac/clients/pickard-construction-logo.png
+- name: Municipality of Chatham Kent 
+  logo: /assets/images/hydrovac/clients/chatham-kent-logo.png
 
 - name: Jaar Excavating
   logo: /assets/images/hydrovac/clients/jaar-logo.png
-
-- name: SCI
-  logo: /assets/images/hydrovac/clients/sentrex-comm-logo.png
