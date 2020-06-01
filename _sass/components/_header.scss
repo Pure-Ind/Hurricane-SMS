@@ -352,6 +352,9 @@ header {
     text-align: center;
     padding: 12px;
     transition: all ease-in-out 0.5s;
+    a {
+      line-height: 1.2;
+    }
   }
   ul li ul li.active {
     background: $brand-color;

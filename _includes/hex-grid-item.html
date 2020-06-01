@@ -11,7 +11,7 @@
         {% endif %}
         <img src="{{ include.img_src }}" class="hex-grid-img" alt="{{ include.img_alt }}" />
     </div>
-    
+    {% if include.svg %}
     <svg class="clip-svg" width="0" height="0" >
         <defs>
             <clipPath id="clip-svg-demo" clipPathUnits="objectBoundingBox" transform="scale(0.01, 0.01)">
@@ -19,6 +19,7 @@
             </clipPath>
         </defs>   
     </svg>
+    {% endif %}
 </a>
 <figcaption>{{ include.img_alt }} </figcaption>
 </figure>
