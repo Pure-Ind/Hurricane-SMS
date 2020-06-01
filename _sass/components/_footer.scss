@@ -72,6 +72,10 @@
     background: #111;
     text-align: right;
     overflow: hidden;
+    a {
+        color: #ddd;
+        text-decoration: none;
+    }
     &-container {
         display: flex;
         justify-content: center;
@@ -144,7 +148,7 @@
       font-size: 12px;
       line-height: 1;
       font-weight: 800;
-      padding: 2px 2px 2px 2px;
+      padding:10px 2px;
       margin-right: 10px;
       border: none;
       color: #fff;

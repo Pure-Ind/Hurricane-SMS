@@ -1,6 +1,6 @@
 <div class="top-notice">
     <div class="top-notice-content">
-        For Emergency Services Call <a href="tel:519-726-6388" class="phone hvr-sweep-to-left-dark">519.726.6388</a>
+        For Emergency Services Call <a href="tel:519-796-9259" class="phone hvr-sweep-to-left-dark">519.796.9259</a>
     </div>
 </div>
 <header class="full-header" id="main-header">
@@ -17,18 +17,22 @@
                             {% if item.subnavigation[0] %}
                                 <ul class="dropdown">
                                 {% for subentry in item.subnavigation %}
-                                    <li><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
+                                    {% if page.url == subentry.url %}
+                                        <li class="active"><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
+                                    {% else %}
+                                        <li><a href="{{ subentry.url }}">{{ subentry.title }}</a></li>
+                                    {% endif %}
                                 {% endfor %}
                                 </ul>
                             {% endif %}
                         </li>
                     {% endfor %}
-                    <li><div data-micromodal-trigger="modal-1" class="full-header-nav-button hvr-sweep-to-left">Book Services<span>519.726.6388</span></div></li>
+                    <li><div data-micromodal-trigger="modal-1" class="full-header-nav-button hvr-sweep-to-left">Book Services<span>519.796.9259</span></div></li>
                 </ul>
             </nav>
         </div>
         <div class="header-mobile-book-now">
-            <a href="tel:519.726.6388" class="full-header-nav-button ">Book Services<span>519.726.6388</span></a>
+            <a href="tel:519-796-9259" class="full-header-nav-button ">Book Services<span>519.796.9259</span></a>
         </div>
         <div class="header-navigation mobile">
             <button class="hamburger hamburger--elastic" type="button"
@@ -55,8 +59,8 @@
                 {% endfor %}
             </ul>
             <div class="navigation-contact">
-                E. <a href="mailto:info@hhydrovac.ca">info@hhydrovac.ca</a><br>
-                T. <a href="tel:519-726-6388">519-726-6388</a>
+                E. <a href="mailto:info@hhydrovac.ca">justin@hhydrovac.ca</a><br>
+                T. <a href="tel:519-796-9259">519.796.9259</a>
             </div>
             </div>
         </div>

@@ -51,8 +51,17 @@ $brand-color:#c4912c !default;
 
 .inspection-programs {
     background: #222;
-    padding: 100px 0;
-    text-align: center;
+    padding: 120px 0;
+    background-image: url(../images/sms/partner-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    &-content {
+        max-width: 800px;
+        width: 100%;
+        @media (max-width: 1200px){
+            padding: 0 20px;
+        }
+    }
     h2 {
         color: #fff;
         font-size: 40px;
