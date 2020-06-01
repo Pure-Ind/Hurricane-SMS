@@ -152,8 +152,9 @@
       margin-right: 10px;
       border: none;
       color: #fff;
-      background: #111;
+      background: transparent;
       position: relative;
+      z-index: 1;
     }
     .selectParent:after {
       content: "";
@@ -161,7 +162,7 @@
       height: 30px;
       content: "";
       top: -1px;
-      z-index: 2;
+      z-index: 0;
       position: absolute;
       background: transparent url(../images/down-icon.svg) no-repeat center center;
       background-size: contain;
