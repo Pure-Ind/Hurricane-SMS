@@ -196,7 +196,7 @@ header {
     }
     .full-header-nav-button {
       border: 1px solid #222;
-      color: #222;
+      color: #fff;
     }
     ul li ul li a {
       color: #fff!important;
@@ -377,10 +377,11 @@ header {
     font-size: 13px;
     font-weight: 600;
     a {
-      color: #fff;
+      color: $brand-color;
       padding: 5px;
-      border: 1px solid #fff;;
-      margin: 2px 8px;
+      font-size: 20px;
+      // border: 1px solid #fff;;
+      margin: 2px;
       display: inline-block;
       text-decoration: none;
       position: relative;
